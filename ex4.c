@@ -1,3 +1,9 @@
+/*************************
+  UFFS CHAPECÓ
+  github: barbs-pm
+  Barbara Pegoraro Markus
+**************************/
+
 /*Crie uma função que receba como parâmetros dois vetores de inteiros, v1 e v2, e as suas
 respectivas quantidades de elementos, n1 e n2. A função deverá retornar um ponteiro para
 um terceiro vetor, v3, com capacidade para (n1 + n2) elementos, alocado dinamicamente,

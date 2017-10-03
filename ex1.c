@@ -1,3 +1,9 @@
+/*************************
+  UFFS CHAPECÓ
+  github: barbs-pm
+  Barbara Pegoraro Markus
+**************************/
+
 /*Implemente um programa, para alocar memória para um 
 vetor. O número de posições do vetor será indicado via 
 teclado, assim como o conteúdo das posições. Após a 

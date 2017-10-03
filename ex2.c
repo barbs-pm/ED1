@@ -1,4 +1,10 @@
-/*Altere o programa para armazenar uma estrutura em 
+/*************************
+  UFFS CHAPECÓ
+  github: barbs-pm
+  Barbara Pegoraro Markus
+**************************/
+
+/*Altere o programa do ex1 para armazenar uma estrutura em 
 cada posição do vetor.*/
 
 #include <stdio.h>

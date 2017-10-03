@@ -1,3 +1,9 @@
+/*************************
+  UFFS CHAPECÓ
+  github: barbs-pm
+  Barbara Pegoraro Markus
+**************************/
+
 /*Altere o programa do exercício 1, de forma que receba números inteiros do usuário
 indefinidamente. O programa finaliza quando o usuário entrar com o número 0.
 a) Aloque, inicialmente, memória para 5 inteiros;

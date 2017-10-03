@@ -127,7 +127,6 @@ tp_nodo* pop(tp_nodo *l){
 	printf("\tAperte 1 para voltar: ");
 	scanf("%d", &volta);
 	return l;
-
 }
 
 void display(tp_nodo *l){

@@ -57,6 +57,11 @@ void push(tp_lista *head){
 
 }
 
+/**********************
+selo anti-plágio
+code feito por Barbara
+***********************/
+
 void pop(tp_lista *head){
 	int codiguinho, volta, cont=0;
 	/* códiguinho = comparar o codigo do usuario e do nodo
@@ -115,8 +120,13 @@ void pop(tp_lista *head){
 	}
 }
 
+/**********************
+selo anti-plágio
+code feito por Barbara
+***********************/
+
 void display(tp_lista *head){
-	tp_nodo *aux; //p recebe head que aponta pro ultimo da lista
+	tp_nodo *aux; 
 	int volta;
 	
 	system("clear");
@@ -132,7 +142,7 @@ void display(tp_lista *head){
 	}
 	printf("\t___________~<>~__________\n");
 
-	if(head->nItens == 0) { //se a função vazia for verdadeira retorna a lista
+	if(head->nItens == 0) { //se a lista tiver vazia imprime mensagem
 		system("clear");
 		printf("\t___________~<>~__________\n");
 		printf("\tLista vazia.\n");

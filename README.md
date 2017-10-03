@@ -18,3 +18,5 @@ Aluna: **Bárbara Pegoraro Markus**
 
 *CAMPUS CHAPECÓ/SC*
 
+![cc](https://i.imgur.com/wdSPfgK.png)
+

@@ -1,14 +1,16 @@
-#ESTRUTURA DE DADOS
+# ESTRUTURA DE DADOS
 
-Repositório dedicado à exercicíos de Estrutura de Dados
+Exercícios de estrutura de dados
 
-##Getting Started
+## Tipos de exercicíos
 
-Exercícios do tipo:
-```
-Ponteiros, pilhas, filas, listas
-```
-###Informações
-Professor: Doglas F.
-Universidade Federal da Fronteira Sul
+Filas, Pilhas, Listas, Ponteiros, Métodos de Ordenação...
+
+### Informações
+
+Prof.: Doglas F.
+Aluna: Bárbara Pegoraro Markus
+CIÊNCIA DA COMPUTAÇÃO
+UNIVERSIDADE FEDERAL DA FRONTEIRA SUL
+CAMPUS CHAPECÓ/SC
 

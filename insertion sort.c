@@ -1,9 +1,9 @@
 /*****************************
-	UFFS- CHAPECÓ/SC
-	BÁRBARA PEGORARO MARKUS
-	CIÊNCIA DA COMPUTAÇÃO
+   UFFS- CHAPECÓ/SC 
+   BÁRBARA PEGORARO MARKUS
+   CIÊNCIA DA COMPUTAÇÃO
 
-	Insertion sort
+      Insertion sort
 ******************************/
 /**************************************************************************
 O programa funciona da seguinte forma:

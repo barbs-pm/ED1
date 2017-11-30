@@ -1,9 +1,9 @@
 /*************************
   UFFS CHAPECÓ
-  github: barbs-pm
+  github.com/barbs-pm
   Barbara Pegoraro Markus
-	
-	  BUSCA BINÁRIA
+  
+      BUSCA BINÁRIA
 **************************/
 
 #include <stdio.h>

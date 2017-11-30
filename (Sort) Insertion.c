@@ -9,31 +9,36 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void){
-    int i, j, aux, num, *vet;
+#include <stdio.h>
+#include <stdlib.h>
 
-    printf("Digite quantos numeros deseja ordenar: ");
-  	scanf("%d", &num);
-
-  	vet = (int*) calloc(num, sizeof(int));
-
-  	printf("Digite os valores: \n");
-  	for(i = 0; i < num; i++)
-  		scanf("%d", vet + i);
-  	
-    for(i = 0; i < num; i++){
-        aux = vet[i]; 
-        j = i - 1; //j = antecessor de i
-        while(j >= 0 && vet[j] > aux){
-            vet[j+1] = vet[j];//troca de lugar com o anterior
-            j--; //vai empurrando os numeros até achar o espaço que o vet[j] seja < aux (vet[i])
-        }
-        vet[j+1] = aux; //colocando o vetor no espaço que ficou "vazio"
+void insertion (int vet[], int n){
+  int i, j, atual;
+  for(i = 0; i < n; i++){
+    atual = vet[i];
+    for(j = i - 1; j >= 0 && vet[j] > atual; j--){
+      vet[j+1] = vet[j];
     }
+    vet[j+1] = atual;
+  }
+}
 
-    printf("\nSeus números ordenados são: ");
-    for(i  =0; i < num; i++)
-        printf("%d ", *(vet + i));
+int main(void){
+  int i, j, aux, num, *vet;
 
-    return 0;
+  printf("Digite quantos numeros deseja ordenar: ");
+  scanf("%d", &num);
+
+  vet = (int*) calloc(num, sizeof(int));
+
+  printf("Digite os valores: \n");
+  for(i = 0; i < num; i++)
+  	scanf("%d", vet + i);
+
+  insertion(vet, num);
+
+  printf("Vetor ordenado: ");
+  for(i = 0; i < num; i++)
+  	printf("%d ", vet[i]);
+
 }

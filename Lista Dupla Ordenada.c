@@ -1,10 +1,10 @@
 /*************************
   UFFS CHAPECÓ
-  github: barbs-pm
+  github.com/barbs-pm
   Barbara Pegoraro Markus
 
   LISTA DUPLA ENCADEADA
-       E ORDENADA
+        E ORDENADA
 **************************/
 
 #include <stdio.h>

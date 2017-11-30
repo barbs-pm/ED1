@@ -1,9 +1,9 @@
 /*************************
-UFFS CHAPECÓ
-github: barbs-pm
-Barbara Pegoraro Markus
-
-LISTA SIMPLES ENCADEADA
+  UFFS CHAPECÓ
+  github.com/barbs-pm
+  Barbara Pegoraro Markus
+ 
+ LISTA SIMPLES ENCADEADA
 **************************/
 
 #include <stdio.h>

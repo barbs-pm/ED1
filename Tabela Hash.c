@@ -1,9 +1,9 @@
 /*************************
   UFFS CHAPECÓ
-  github: barbs-pm
+  github.com/barbs-pm
   Barbara Pegoraro Markus
-
-       TABELA HASH
+  
+      TABELA HASH
 **************************/
 
 #include <stdio.h>

@@ -13,15 +13,16 @@ void selection(int vet[], int n){
 	int i, j, menor, aux;
 	for (i = 0; i < (n-1); i++){
   		menor = i;
-    	for (j = (i+1); j < n; j++) //procura o menor elemento do vetor
-      		if(vet[j] < vet[menor]) 
-        		menor = j;
-  
-     	if (vet[i] != vet[menor]){ //troca com o menor elemento do vetor
-       		aux = vet[i];
-       		vet[i] = vet[menor];
-       		vet[menor] = aux;
-     	}
+		
+		for (j = (i+1); j < n; j++) //procura o menor elemento do vetor
+			if(vet[j] < vet[menor]) 
+				menor = j;
+
+		if (vet[i] != vet[menor]){ //troca com o menor elemento do vetor
+			aux = vet[i];
+			vet[i] = vet[menor];
+			vet[menor] = aux;
+     		}
   	}
 }
 
